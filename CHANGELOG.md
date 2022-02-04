@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/loweoj/vuforia-js/compare/v0.1.1...v0.1.2) (2022-02-04)
+
+
+### Bug Fixes
+
+* compile module build to es2017 ([777abb5](https://github.com/loweoj/vuforia-js/commit/777abb59edc596e2bc90010c3d6bd14fc3b2ae8c))
+
 ### [0.1.1](https://github.com/loweoj/vuforia-js/compare/v0.1.0...v0.1.1) (2022-02-04)
 
 
