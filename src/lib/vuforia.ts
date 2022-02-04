@@ -103,7 +103,7 @@ export class Vuforia {
   static get utils() {
     return {
       encodeFileBase64(filePath: string) {
-        return new Promise((resolve, reject) => {
+        return new Promise<string>((resolve, reject) => {
           fs.readFile(filePath, 'base64', (error, data) => {
             /* istanbul ignore if */
             if (error) {
