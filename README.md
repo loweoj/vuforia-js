@@ -13,7 +13,7 @@ Promise based client for the Vuforia Web Services API
 Add a target
 
 ```ts
-import Vuforia from 'vuforia-js'
+import { Vuforia } from 'vuforia-js'
 
 const vf = new Vuforia({
   serverAccessKey: 'your-access-key',
@@ -57,7 +57,7 @@ vf.databaseSummary();
 
 ## Helpers:
 
-A few helpers files are provided to convert data to base64 equivalents:
+A few helpers functions are provided to convert data to base64:
 
 ```ts
 // encode a local image file to base64 for use with addTarget and updateTarget
