@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/loweoj/vuforia-js/compare/v0.1.2...v0.1.3) (2022-09-16)
+
+
+### Bug Fixes
+
+* add full response to error object ([9b9c74b](https://github.com/loweoj/vuforia-js/commit/9b9c74b6845762bea33d8648d47f910455c6fd5e))
+
 ### [0.1.2](https://github.com/loweoj/vuforia-js/compare/v0.1.1...v0.1.2) (2022-02-04)
 
 
