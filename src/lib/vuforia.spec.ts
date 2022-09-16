@@ -2,8 +2,7 @@ import test from 'ava';
 import MockDate from 'mockdate';
 import nock from 'nock';
 
-import { Vuforia } from './vuforia';
-import { VuforiaError } from './vuforia-error';
+import { Vuforia, VuforiaError } from './vuforia';
 
 MockDate.set(new Date('2019-01-01T00:00:00.000Z'));
 

@@ -6,6 +6,8 @@ import { createAuthorization } from './authorization';
 import { VuforiaApi } from './vuforia-api-types';
 import { VuforiaError } from './vuforia-error';
 
+export { VuforiaError };
+
 export interface VuforiaOptions {
   readonly serverAccessKey: string;
   readonly serverSecretKey: string;
