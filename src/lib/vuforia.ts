@@ -156,7 +156,8 @@ export class Vuforia {
       ) {
         throw new VuforiaError(
           error.response.data.result_code,
-          error.response.status
+          error.response.status,
+          error.response.data
         );
       }
       throw error;

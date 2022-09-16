@@ -5,13 +5,20 @@ export class VuforiaError extends Error {
   statusCode: number;
   message: string;
   name: string;
+  fullResponse: any;
 
-  constructor(errorCode: VuforiaApi.ErrorCode, statusCode: number) {
+  constructor(
+    errorCode: VuforiaApi.ErrorCode,
+    statusCode: number,
+    fullResponse?: any
+  ) {
     super(errorCode);
     Object.setPrototypeOf(this, VuforiaError.prototype);
+
     this.name = 'VuforiaError';
     this.resultCode = errorCode;
     this.statusCode = statusCode;
+    this.fullResponse = fullResponse;
 
     let message;
 
@@ -25,5 +32,9 @@ export class VuforiaError extends Error {
     }
 
     this.message = errorCode + ' - ' + message;
+  }
+
+  getRawResponse() {
+    return this.fullResponse;
   }
 }
